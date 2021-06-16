@@ -1,0 +1,10 @@
+POST localhost:8092/customers
+JSON Content
+{
+  "firstName":"Juan",
+  "numberID": "12346752",
+  "lastName": "Sanchez",
+  "email": "jsanchez@gmail.com",
+  "photoUrl":"",
+  "region":{"id":2, "name":"Centroamérica"}
+}
