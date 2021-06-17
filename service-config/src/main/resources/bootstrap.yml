@@ -11,8 +11,7 @@ spring:
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
           default-label: main
-    security:
-      user:
-        name: root
-        password: s3cr3t
-
+  security:
+    user:
+      name: root
+      password: s3cr3t
